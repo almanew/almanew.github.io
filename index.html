@@ -46,7 +46,7 @@
 			<img src="" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">John Doe</a></h1>
+		  <h1 class="header-author"><a href="/">Alma New</a></h1>
 		</hgroup>
 		
 
@@ -104,7 +104,7 @@
 				<img src="" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">John Doe</h1>
+			  <h1 class="header-author js-header-author">Alma New</h1>
 			</hgroup>
 			
 			
@@ -152,12 +152,32 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-第一篇" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
+    <article id="post-利用hexo搭建github博客" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/01/08/利用hexo搭建github博客/">利用hexo搭建github博客</a>
+    </h1>
+  
+
+        
+        <a href="/2019/01/08/利用hexo搭建github博客/" class="archive-article-date">
+  	<time datetime="2019-01-08T13:13:15.825Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-08</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>终于完成了博客的搭建，虽有些懵懂，稀里糊涂的，改天好好整理一下</p>
+        <p>步骤：<br>1在github 建立库<br>2下载github桌面版<br>3 用hexo搭建博客<br>4部署到github,添加SSH Key</p>
+<p>#hexo搭建博客<br>安装Node.js<br>安装git<br>安装hexo<br>    在你需要安装Hexo的目录下(新建一个文件夹)右键选择 Git Bash<br>    npm install hexo-cli -g<br>     hexo init #初始化网站<br>     npm install<br>    hexo g #生成或 hexo generate<br>   hexo s #启动本地服务器 或者 hexo server,这一步之后就可以通过<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>  查看了<br>   详细命令请参考Hexo文档<br>   这里介绍一下怎么创建一篇文章<br>   hexo new “文章名” #新建文章<br>   hexo new page “页面名” #新建页面   </p>
+<p>  常用简写<br>  hexo n == hexo new<br>  hexo g == hexo generate<br>  hexo s == hexo server<br>  hexo d == hexo deploy<br>  新建一篇文章后就可以预览了,在hexo new之后执行一次生成hexo g再执行hexo s启动本地服务器,如果之前还在hexo s 按Ctrl + C 结束.</p>
+<p>#遇到的问题<br>设置完毕，4000端口无法打开，查看PID也没有被占用，这里花了一部分时间去搞定：安装git的时候安装路径有中文名，卸载重新安装到无中文文件夹，重新执行hexo init 就OK了。</p>
+<p>#参考资料</p>
+<p>1<a href="https://www.cnblogs.com/jackyroc/p/7681938.html" target="_blank" rel="noopener">我是如何利用Github Pages搭建起我的博客，细数一路的坑</a><br>2<a href="https://www.cnblogs.com/fengxiongZz/p/7707219.html" target="_blank" rel="noopener">使用Hexo+Github一步步搭建属于自己的博客（基础）</a><br>3<a href="https://blog.csdn.net/meimeilive/article/details/80076394" target="_blank" rel="noopener">Git /.ssh: No such file or directory</a></p>
 
       
 
@@ -170,7 +190,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2019/01/07/第一篇/">展开全文 >></a>
+          <a class="article-more-a" href="/2019/01/08/利用hexo搭建github博客/">展开全文 >></a>
         </p>
       
 
@@ -281,7 +301,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2019 John Doe
+    		&copy; 2019 Alma New
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
