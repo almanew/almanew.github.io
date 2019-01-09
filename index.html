@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>alma����</title>
+  <title>almanew blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="alma����">
+<meta property="og:title" content="almanew blog">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="alma����">
+<meta property="og:site_name" content="almanew blog">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="alma����">
+<meta name="twitter:title" content="almanew blog">
   
-    <link rel="alternative" href="/atom.xml" title="alma����" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="almanew blog" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -179,11 +179,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>步骤：<br>1在github 建立库<br>2下载github桌面版<br>3 用hexo搭建博客<br>4部署到github,添加SSH Key</p>
-<h1 id="hexo搭建博客"><a href="#hexo搭建博客" class="headerlink" title="hexo搭建博客"></a>hexo搭建博客</h1><p>安装Node.js<br>安装git<br>安装hexo<br>    在你需要安装Hexo的目录下(新建一个文件夹)右键选择 Git Bash<br>    npm install hexo-cli -g<br>     hexo init #初始化网站<br>     npm install<br>    hexo g #生成或 hexo generate<br>   hexo s #启动本地服务器 或者 hexo server,这一步之后就可以通过<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>  查看了<br>   详细命令请参考Hexo文档<br>   这里介绍一下怎么创建一篇文章<br>   hexo new “文章名” #新建文章<br>   hexo new page “页面名” #新建页面   </p>
-<p>  常用简写<br>  hexo n == hexo new<br>  hexo g == hexo generate<br>  hexo s == hexo server<br>  hexo d == hexo deploy<br>  新建一篇文章后就可以预览了,在hexo new之后执行一次生成hexo g再执行hexo s启动本地服务器,如果之前还在hexo s 按Ctrl + C 结束.</p>
-<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><p>设置完毕，4000端口无法打开，查看PID也没有被占用，这里花了一部分时间去搞定：安装git的时候安装路径有中文名，卸载重新安装到无中文文件夹，重新执行hexo init 就OK了。</p>
-<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>1<a href="https://www.cnblogs.com/jackyroc/p/7681938.html" target="_blank" rel="noopener">我是如何利用Github Pages搭建起我的博客，细数一路的坑</a><br>2<a href="https://www.cnblogs.com/fengxiongZz/p/7707219.html" target="_blank" rel="noopener">使用Hexo+Github一步步搭建属于自己的博客（基础）</a><br>3<a href="https://blog.csdn.net/meimeilive/article/details/80076394" target="_blank" rel="noopener">Git /.ssh: No such file or directory</a></p>
-
+        
+          <a class="article-more-a" href="/2019/01/08/利用hexo搭建github博客/#more">more >></a>
+        
       
 
       
@@ -191,6 +189,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">-testing</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -399,6 +408,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">-testing</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
